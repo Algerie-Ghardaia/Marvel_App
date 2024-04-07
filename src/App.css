@@ -1,0 +1,272 @@
+.App {
+  margin: 0 auto;
+  background: #ffffff;
+  height: 100vh;
+  font-weight: 400;
+}
+.container {
+  width: 1275px;
+  margin: 0 auto;
+}
+
+/* --------------------NAVBAR-------------------------- */
+.navabar {
+  height: 80px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.4);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #f0141e;
+  margin-top: -9px;
+}
+
+.log_links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  width: 20%;
+  padding-top: 6px;
+  border-radius: 5px;
+}
+.links {
+  margin: 0 auto;
+  width: 55%;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none !important;
+  font-size: 25px;
+  color: #000000 !important;
+}
+.links :hover {
+  text-decoration: none !important;
+  color: #ffffff !important;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: all 0.2s !important;
+}
+input:focus {
+  outline: none;
+}
+.input-icone {
+  color: #000000;
+  height: 53px;
+  width: 300px;
+  border-radius: 7px;
+  padding-top: 5px;
+  background-color: #f5f6f7;
+}
+.icone_display {
+  display: flex;
+  border-radius: 7px;
+  align-items: center;
+  margin-left: 5px;
+  padding-left: 7px;
+}
+.icon {
+  width: 27px;
+  height: 27px;
+  color: #868484;
+  border: none !important;
+  margin-right: 20px;
+}
+input {
+  border-radius: 7px;
+  border: none;
+  background: #f5f6f7;
+  color: #000000 !important;
+  width: 400px;
+  font-size: 20px;
+  padding-top: 5px;
+  border: none !important;
+}
+.cp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  color: #2eb0ba !important;
+}
+/* ------------------------------------------------------- */
+
+/* --------------------CHARACTERS-------------------------- */
+
+.main_character {
+  margin: 0 auto !important;
+  width: 1400px;
+  /* margin-top: 150px !important; */
+}
+article {
+  display: inline-block;
+  margin: 0 auto !important;
+  width: 350px;
+}
+.img_character {
+  text-align: center;
+  width: 97%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+.img_character img {
+  border-radius: 4px;
+  transition: all 0.4s !important;
+}
+.img_character img:hover {
+  border-radius: 10px;
+  transition: all 0.6s !important;
+  cursor: pointer;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.img_character h2 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-top: 4px;
+  margin-top: 5px;
+  width: 80%;
+  text-align: start;
+}
+.div_log_name {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  align-items: center;
+  margin-left: 17px;
+}
+.border {
+  border: #000000 2px solid;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  background: #ffffff;
+  box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.2);
+}
+.isLiked {
+  margin-top: 8px;
+  color: #e41414;
+}
+.white {
+  color: #cbcccd;
+  margin-top: 8px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.page {
+  color: lawngreen;
+  margin-bottom: 20px;
+}
+/* -------------------------------------------------------- */
+
+/* ------------------PAGE_CHARACTER------------------------ */
+.article2 {
+  width: 100%;
+  height: 800px;
+}
+.article2 h1 {
+  font-size: 40px !important;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.article2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.detail_selected img {
+  border-radius: 15px;
+}
+
+.description {
+  width: 800px;
+  font-size: 30px;
+  font-family: cursive;
+  margin-top: 20px;
+}
+/* -------------------------------------------------------- */
+
+/* ------------------PAGE_COMICS------------------------ */
+.accordion {
+  display: inline-block;
+  width: 350px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+.page_comics {
+  width: 100vw;
+  margin-left: -8px;
+  margin-top: 30px;
+}
+.page_comics1 {
+  width: 100vw;
+  padding-left: 130px;
+  margin-top: 40px;
+}
+
+.k {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.deux-log {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 55px;
+}
+
+.A {
+  padding-top: 10px;
+  margin-left: -122px;
+  width: 13%;
+}
+
+.B {
+  margin-left: 6px;
+}
+.k img {
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.4);
+}
+.k {
+  background-color: rgba(212, 194, 93, 0.549);
+  border-radius: 10px;
+}
+.comics_p p {
+  width: 310px;
+  font-family: fantasy;
+  font-size: 14px;
+  margin-left: 10px !important;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.comics_p p :hover {
+  font-size: 16px !important;
+}
+.comics_p {
+  overflow-y: hidden;
+  height: 130px;
+}
+
+.C {
+  transition: all 0.2s !important;
+}
+/* -------------------------------------------------------- */
+
+
